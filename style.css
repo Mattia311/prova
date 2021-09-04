@@ -48,6 +48,42 @@
     padding-left: 120px;
     color: #858585;
 }
+.containe::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.blocco1 {
+    float: left;
+    width: 25%;
+    background-color: yellow;
+    height: px;
+    
+}
+.blocco2 {
+    float: left;
+    width: 48%;
+    background-color: yellow;
+    height: px;
+    margin-left:1% ;
+   
+}
+.blocco3 {
+    float: right;
+    width: 25%;
+    background-color: yellow;
+    height: px;
+}
+.immaginesignore {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    background-size: contain;
+}
+
+
+
+
 
 
 
