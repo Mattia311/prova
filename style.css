@@ -37,6 +37,7 @@
     border-radius: 15px 15px 15px 15px;
     filter: brightness(80%);
     height: 550px;
+    width: 1050px;
 }
 .leader {
     padding-left: 120px;
@@ -56,30 +57,62 @@
 .blocco1 {
     float: left;
     width: 25%;
-    background-color: yellow;
-    height: px;
+    background-color: white;
+    color: #858585;
     
 }
 .blocco2 {
     float: left;
     width: 48%;
-    background-color: yellow;
+    background-color: white;
     height: px;
     margin-left:1% ;
+    margin-right: 1%;
+    background: content-box;
+    background-size: contain;
+    color: #858585;
    
 }
 .blocco3 {
     float: right;
     width: 25%;
-    background-color: yellow;
+    background-color: white;
     height: px;
+    background-size: contain;
+    color: #858585;
 }
 .immaginesignore {
-    width: 700px;
-    height: 400px;
+    width: 513px;
+    height: 250px;
     overflow: hidden;
     background-size: contain;
+    border-radius: 15px 15px 15px 15px;
+    filter: brightness(80%);
+
 }
+.immagineraga {
+    border-radius: 15px 15px 15px 15px;
+    filter: brightness(80%);
+    width: 267px;
+    height: 250px;
+}
+.immagineragazzi {
+    border-radius: 15px 15px 15px 15px;
+    filter: brightness(80%);
+    height: 250px;
+    width:260px;
+}
+.container {
+    padding-top: 2rem;
+    padding-left: 7.3rem;
+    padding-right: 16rem;
+
+}
+h3 {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
 
 
 
